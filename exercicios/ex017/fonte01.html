@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fontes em CSS</title>
+    <title>Fontes  CSS</title>
     <style>
+        
         body {
             font-family: Arial, Helvetica, sans-serif;
             /*
@@ -15,9 +16,33 @@
             em, ex, ch, rem, vw, vh, vmin, vmax, %
             */
             font-size: 1em;
+            font-weight: normal; /*lighter, normal, bold, bolder, 1-900*/
+            /*
+            Wheight: Peso;
+            width: Largura;
+            height: Altura.
+            */
+            font-style: normal;
+            /* italic*/
         }
-        h1, h2 {
-            font-family: 'Times New Roman', Times, serif;
+        h1 {
+            /*
+            font-family: 'Work Sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic; 
+            */
+            /* shorthand font
+            - font-style
+            - font-weight
+            - font-size
+            - font-family
+            */
+            font: italic bolder 3em 'Wordk Sans', sans-serif;
+        }
+
+        h2 {
+            font: bold 2em 'Wordk Sans';
         }
     </style>
 </head>
